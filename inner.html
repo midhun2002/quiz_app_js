@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div style="text-align: center" class="quiz-container">
+      <div id="que">Question-txt</div>
+      <div class="options" id="opts" style="text-align: center">
+        <div>
+          <input type="radio" name="answer" id="a" aria-selected="false" />
+          <label for="a" t id="option-text-a">Question</label>
+        </div>
+        <div>
+          <input type="radio" name="answer" id="b" aria-selected="false" />
+          <label for="b" id="option-text-b">Question</label>
+        </div>
+        <div>
+          <input type="radio" name="answer" id="c" aria-selected="false" />
+          <label for="c" id="option-text-c">Question</label>
+        </div>
+        <div>
+          <input type="radio" name="answer" id="d" aria-selected="false" />
+          <label for="d" id="option-text-d">Question</label>
+        </div>
+      </div>
+      <button type="button" class="btn btn-primary" id="save">save</button>
+      <button type="button" class="btn btn-primary" id="prev">prev</button>
+      <button type="button" class="btn btn-primary" id="next">next</button
+      ><br />
+      <button type="submit" class="btn btn-danger" id="submit">
+        submitall
+      </button>
+      <h1 id="marks"></h1>
+    </div>   
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
